@@ -5,6 +5,7 @@
 
 header {
     background-color: rgba(255, 144, 14, 0.1);
+
 }
 
 .nav-bar {
@@ -58,4 +59,92 @@ header {
 header>div>img {
     height: 700px;
     margin: 20px 0px;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 10px;
+}
+
+.main-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.main-articles {
+    margin: auto;
+}
+
+.feature {
+    color: rgba(255, 144, 14, 1);
+    line-height: 3px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+}
+
+
+
+.features>div>h2 {
+    line-height: 10px;
+}
+
+.features>div>img {
+    height: 700px;
+}
+
+.experiences-btn {
+    padding: 10px 25px;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    top: -100px;
+    left: -100px;
+}
+
+.facts-portion>p {
+    width: 40%;
+}
+
+.some-facts {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+
+}
+
+.facts {
+    border: 1px solid orange;
+    border-radius: 5px;
+    height: 120px;
+    width: 150px;
+    line-height: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.sponsors-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px;
+}
+
+.our-sponsor {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.sponsors {
+    height: 30px;
+}
+
+footer {
+    text-align: center;
 }

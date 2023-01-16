@@ -1,0 +1,47 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 5px;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.nav-bar>div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    padding: 20px;
+
+}
+
+.nav-anchor a {
+    padding: 0 15px;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-size: 17px;
+}
+
+.banner {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+
+
+}
+
+.banner h2 {
+    line-height: 20px;
+    font-weight: 800;
+    font-size: 30px;
+}

@@ -59,6 +59,7 @@ header {
 header>div>img {
     height: 700px;
     margin: 20px 0px;
+    width: 98%;
 }
 
 .main-section {
@@ -128,6 +129,12 @@ header>div>img {
     line-height: 10px;
     text-align: center;
     padding: 5px;
+
+}
+
+.facts:hover img {
+    transform: scale(1.4) rotate(360deg);
+    transition: transform 2s ease-out;
 }
 
 .sponsors-container {
@@ -147,4 +154,37 @@ header>div>img {
 
 footer {
     text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .main-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .main-images {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 50px;
+    }
+
+    .some-facts {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+
+    }
+
+    .sponsors-container {
+        display: flex;
+        flex-direction: column;
+        margin: 70px;
+    }
 }
